@@ -1,3 +1,4 @@
+# exemplo de uso de variaveis ( ver defaults/main.yml)
 ---
 name:  dar um ls em um diretorio qualquer
 command:  ls -la {{folder}}
