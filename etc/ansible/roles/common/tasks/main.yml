@@ -1,0 +1,6 @@
+---
+name:  dar um ls em um diretorio qualquer
+command:  ls -la {{folder}}
+with_folders:
+  -  {{folders_list}}
+---
