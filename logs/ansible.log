@@ -6672,3 +6672,1151 @@ https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery
 }
 2021-02-16 14:12:52,918 p=36136 u=enzo n=ansible | META: ran handlers
 2021-02-16 14:12:52,921 p=36136 u=enzo n=ansible | META: ran handlers
+2021-02-23 16:34:04,986 p=446044 u=enzo n=ansible | 192.168.0.122 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Invalid/incorrect username/password. Skipping remaining 3 retries to prevent account lockout: no such identity: /home/enzo/.ssh/id_rsa: No such file or directory",
+    "unreachable": true
+}
+2021-02-23 16:34:13,501 p=446044 u=enzo n=ansible |  [ERROR]: User interrupted execution
+
+2021-02-23 16:34:24,063 p=446453 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 16:34:24,063 p=446453 u=enzo n=ansible | 192.168.0.122 | CHANGED | rc=0 >>
+total 60
+drwxr-xr-x 1 enzo users  538 fev 16 15:29 .
+drwxr-xr-x 1 root root     8 fev 14 10:32 ..
+drwx------ 1 enzo users    6 fev 14 15:38 .ansible
+-rw------- 1 enzo users  208 fev 15 14:10 .bash_history
+-rw-r--r-- 1 enzo users 1177 fev 14 10:32 .bashrc
+drwxr-xr-x 1 enzo users    0 fev 14 10:32 bin
+drwx------ 1 enzo users  258 fev 14 11:00 .cache
+drwx------ 1 enzo users  256 fev 14 11:12 .config
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Desktop
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Documents
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Downloads
+-rw-r--r-- 1 enzo users 1637 fev 14 10:32 .emacs
+-rw------- 1 enzo users   16 fev 14 10:53 .esd_auth
+drwxr-xr-x 1 enzo users    0 fev 14 10:32 .fonts
+drwx------ 1 enzo users   44 fev 14 10:55 .gnupg
+-rw-r--r-- 1 enzo users   73 fev 14 10:32 .i18n
+-rw------- 1 enzo users 2646 fev 16 15:29 .ICEauthority
+-rw-r--r-- 1 enzo users  861 fev 14 10:32 .inputrc
+drwx------ 1 enzo users   10 fev 14 10:53 .local
+drwx------ 1 enzo users   72 fev 14 11:00 .mozilla
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Music
+-rw-r--r-- 1 enzo users 6043 fev 14 10:32 .muttrc
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Pictures
+-rw-r--r-- 1 enzo users 1028 fev 14 10:32 .profile
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Public
+-rw------- 1 enzo users    7 fev 14 12:05 .python_history
+drwx------ 1 enzo users   22 fev 14 11:22 .ssh
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Templates
+-rw-r--r-- 1 enzo users  311 fev 14 10:32 .urlview
+-rw-r----- 1 enzo users    5 fev 16 15:29 .vboxclient-hostversion.pid
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Videos
+-rw-r--r-- 1 enzo users 1951 fev 14 10:32 .xim.template
+-rwxr-xr-x 1 enzo users 1112 fev 14 10:32 .xinitrc.template
+
+2021-02-23 16:34:34,764 p=446453 u=enzo n=ansible | 192.168.0.121 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.0.121 port 22: No route to host",
+    "unreachable": true
+}
+2021-02-23 16:36:41,166 p=448591 u=enzo n=ansible | 192.168.0.123 | CHANGED | rc=0 >>
+total 40
+drwxr-xr-x 5 enzo enzo 4096 Feb 14 18:37 .
+drwxr-xr-x 3 root root 4096 Feb 14 12:55 ..
+drwx------ 3 enzo enzo 4096 Feb 14 18:37 .ansible
+-rw------- 1 enzo enzo  695 Feb 15 17:10 .bash_history
+-rw-r--r-- 1 enzo enzo  220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 enzo enzo 3771 Feb 25  2020 .bashrc
+drwx------ 2 enzo enzo 4096 Feb 14 12:55 .cache
+drwx------ 3 enzo enzo 4096 Feb 14 12:57 .config
+-rw-r--r-- 1 enzo enzo  807 Feb 25  2020 .profile
+-rw------- 1 enzo enzo   12 Feb 14 15:05 .python_history
+-rw-r--r-- 1 enzo enzo    0 Feb 14 12:56 .sudo_as_admin_successful
+
+2021-02-23 16:36:49,943 p=448591 u=enzo n=ansible |  [ERROR]: User interrupted execution
+
+2021-02-23 16:37:14,226 p=449170 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 16:37:14,226 p=449170 u=enzo n=ansible | 192.168.0.122 | CHANGED | rc=0 >>
+total 60
+drwxr-xr-x 1 enzo users  538 fev 16 15:29 .
+drwxr-xr-x 1 root root     8 fev 14 10:32 ..
+drwx------ 1 enzo users    6 fev 14 15:38 .ansible
+-rw------- 1 enzo users  208 fev 15 14:10 .bash_history
+-rw-r--r-- 1 enzo users 1177 fev 14 10:32 .bashrc
+drwxr-xr-x 1 enzo users    0 fev 14 10:32 bin
+drwx------ 1 enzo users  258 fev 14 11:00 .cache
+drwx------ 1 enzo users  256 fev 14 11:12 .config
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Desktop
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Documents
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Downloads
+-rw-r--r-- 1 enzo users 1637 fev 14 10:32 .emacs
+-rw------- 1 enzo users   16 fev 14 10:53 .esd_auth
+drwxr-xr-x 1 enzo users    0 fev 14 10:32 .fonts
+drwx------ 1 enzo users   44 fev 14 10:55 .gnupg
+-rw-r--r-- 1 enzo users   73 fev 14 10:32 .i18n
+-rw------- 1 enzo users 2646 fev 16 15:29 .ICEauthority
+-rw-r--r-- 1 enzo users  861 fev 14 10:32 .inputrc
+drwx------ 1 enzo users   10 fev 14 10:53 .local
+drwx------ 1 enzo users   72 fev 14 11:00 .mozilla
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Music
+-rw-r--r-- 1 enzo users 6043 fev 14 10:32 .muttrc
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Pictures
+-rw-r--r-- 1 enzo users 1028 fev 14 10:32 .profile
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Public
+-rw------- 1 enzo users    7 fev 14 12:05 .python_history
+drwx------ 1 enzo users   22 fev 14 11:22 .ssh
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Templates
+-rw-r--r-- 1 enzo users  311 fev 14 10:32 .urlview
+-rw-r----- 1 enzo users    5 fev 16 15:29 .vboxclient-hostversion.pid
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Videos
+-rw-r--r-- 1 enzo users 1951 fev 14 10:32 .xim.template
+-rwxr-xr-x 1 enzo users 1112 fev 14 10:32 .xinitrc.template
+
+2021-02-23 16:37:14,833 p=449170 u=enzo n=ansible | 192.168.0.123 | CHANGED | rc=0 >>
+total 40
+drwxr-xr-x 5 enzo enzo 4096 Feb 14 18:37 .
+drwxr-xr-x 3 root root 4096 Feb 14 12:55 ..
+drwx------ 3 enzo enzo 4096 Feb 14 18:37 .ansible
+-rw------- 1 enzo enzo  695 Feb 15 17:10 .bash_history
+-rw-r--r-- 1 enzo enzo  220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 enzo enzo 3771 Feb 25  2020 .bashrc
+drwx------ 2 enzo enzo 4096 Feb 14 12:55 .cache
+drwx------ 3 enzo enzo 4096 Feb 14 12:57 .config
+-rw-r--r-- 1 enzo enzo  807 Feb 25  2020 .profile
+-rw------- 1 enzo enzo   12 Feb 14 15:05 .python_history
+-rw-r--r-- 1 enzo enzo    0 Feb 14 12:56 .sudo_as_admin_successful
+
+2021-02-23 17:50:54,083 p=521135 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 23, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 17:51:55,645 p=522128 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 23, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 17:52:22,605 p=522594 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 23, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 17:52:40,334 p=522918 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 23, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 17:53:06,111 p=523174 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 21, column 18, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+#   apt:  upgrade=dist force_apt_get=yes
+                 ^ here
+
+There appears to be both 'k=v' shorthand syntax and YAML in this task. Only one syntax may be used.
+
+2021-02-23 17:55:36,824 p=525252 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 10, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 17:56:36,948 p=526285 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 8, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+     update_cache:  true
+---
+^ here
+
+2021-02-23 17:57:21,146 p=526989 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 8, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+     update_cache:  true
+---
+^ here
+
+2021-02-23 17:58:11,538 p=527794 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 8, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+     update_cache:  yes
+---
+^ here
+
+2021-02-23 17:59:52,549 p=529245 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 18:00:08,227 p=529460 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 18:00:25,246 p=529807 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 8, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  #  update_cache: yes
+---
+^ here
+
+2021-02-23 18:00:51,257 p=530120 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 8, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  #  update_cache: yes
+---
+^ here
+
+2021-02-23 18:01:13,689 p=530536 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 7, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    state: latest
+---
+^ here
+
+2021-02-23 18:06:45,462 p=535717 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 18:07:13,102 p=536128 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 8, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    state: latest
+---
+^ here
+
+2021-02-23 18:07:41,402 p=536534 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 7, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    state: latest
+---
+^ here
+
+2021-02-23 18:08:37,778 p=537340 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 18:08:57,263 p=537660 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 18:10:10,129 p=538773 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 18:10:37,561 p=539118 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 8, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 18:11:02,059 p=539430 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 18:13:54,731 p=542218 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 18:15:30,819 p=543668 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 18:17:52,166 p=545928 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unacceptable key (unhashable type: 'AnsibleMapping')
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 7, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  with_folders:
+    -  {{folders_list}}
+        ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2021-02-23 18:18:44,007 p=546703 u=enzo n=ansible | ERROR! 'with_folders' is not a valid attribute for a Task
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 4, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# exemplo de uso de variaveis ( ver defaults/main.yml)
+- name: dar um ls em um diretorio qualquer
+  ^ here
+
+This error can be suppressed as a warning using the "invalid_task_attribute_failed" configuration
+2021-02-23 18:20:14,196 p=547921 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 18:20:14,207 p=547921 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 18:20:16,658 p=547921 u=enzo n=ansible | fatal: [192.168.0.122]: UNREACHABLE! => {"changed": false, "msg": "Invalid/incorrect username/password. Skipping remaining 3 retries to prevent account lockout: no such identity: /home/enzo/.ssh/id_rsa: No such file or directory", "unreachable": true}
+2021-02-23 18:20:16,659 p=547921 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 18:20:16,659 p=547921 u=enzo n=ansible | 192.168.0.122              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-02-23 18:20:34,165 p=548399 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 18:20:34,177 p=548399 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 18:20:36,042 p=548399 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 18:20:36,043 p=548399 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 18:20:36,059 p=548399 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 18:20:36,094 p=548399 u=enzo n=ansible | fatal: [192.168.0.122]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'folder' is undefined\n\nThe error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n# exemplo de uso de variaveis ( ver defaults/main.yml)\n- name: dar um ls em um diretorio qualquer\n  ^ here\n"}
+2021-02-23 18:20:36,095 p=548399 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 18:20:36,095 p=548399 u=enzo n=ansible | 192.168.0.122              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-02-23 18:21:22,560 p=549297 u=enzo n=ansible | ERROR! 'with_folders' is not a valid attribute for a Task
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 4, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# exemplo de uso de variaveis ( ver defaults/main.yml)
+- name: dar um ls em um diretorio qualquer
+  ^ here
+
+This error can be suppressed as a warning using the "invalid_task_attribute_failed" configuration
+2021-02-23 18:22:54,155 p=550696 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 18:22:54,165 p=550696 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 18:22:55,706 p=550696 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 18:22:55,706 p=550696 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 18:22:55,720 p=550696 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 18:22:56,389 p=550696 u=enzo n=ansible | fatal: [192.168.0.122]: FAILED! => {"changed": true, "cmd": ["ls", "-la", "[['/home/enzo', '/etc', '/usr/bin']]"], "delta": "0:00:00.003693", "end": "2021-02-23 18:22:56.313561", "msg": "non-zero return code", "rc": 2, "start": "2021-02-23 18:22:56.309868", "stderr": "ls: cannot access '[['\\''/home/enzo'\\'', '\\''/etc'\\'', '\\''/usr/bin'\\'']]': No such file or directory", "stderr_lines": ["ls: cannot access '[['\\''/home/enzo'\\'', '\\''/etc'\\'', '\\''/usr/bin'\\'']]': No such file or directory"], "stdout": "", "stdout_lines": []}
+2021-02-23 18:22:56,391 p=550696 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 18:22:56,391 p=550696 u=enzo n=ansible | 192.168.0.122              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-02-23 18:25:45,756 p=553177 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 18:25:45,766 p=553177 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 18:25:47,224 p=553177 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 18:25:47,224 p=553177 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 18:25:47,236 p=553177 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 18:25:47,901 p=553177 u=enzo n=ansible | fatal: [192.168.0.122]: FAILED! => {"changed": true, "cmd": ["ls", "-la", "[['/home/enzo', '/etc']]"], "delta": "0:00:00.003270", "end": "2021-02-23 18:25:47.820517", "msg": "non-zero return code", "rc": 2, "start": "2021-02-23 18:25:47.817247", "stderr": "ls: cannot access '[['\\''/home/enzo'\\'', '\\''/etc'\\'']]': No such file or directory", "stderr_lines": ["ls: cannot access '[['\\''/home/enzo'\\'', '\\''/etc'\\'']]': No such file or directory"], "stdout": "", "stdout_lines": []}
+2021-02-23 18:25:47,902 p=553177 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 18:25:47,902 p=553177 u=enzo n=ansible | 192.168.0.122              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-02-23 18:26:40,442 p=554057 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 18:26:40,455 p=554057 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 18:26:41,829 p=554057 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 18:26:41,829 p=554057 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 18:26:41,844 p=554057 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 18:26:42,520 p=554057 u=enzo n=ansible | fatal: [192.168.0.122]: FAILED! => {"changed": true, "cmd": ["ls", "-la", "[['/home/enzo']]"], "delta": "0:00:00.003546", "end": "2021-02-23 18:26:42.434333", "msg": "non-zero return code", "rc": 2, "start": "2021-02-23 18:26:42.430787", "stderr": "ls: cannot access '[['\\''/home/enzo'\\'']]': No such file or directory", "stderr_lines": ["ls: cannot access '[['\\''/home/enzo'\\'']]': No such file or directory"], "stdout": "", "stdout_lines": []}
+2021-02-23 18:26:42,521 p=554057 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 18:26:42,522 p=554057 u=enzo n=ansible | 192.168.0.122              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-02-23 18:27:07,414 p=554532 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 18:27:07,424 p=554532 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 18:27:09,764 p=554532 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 18:27:09,765 p=554532 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 18:27:09,778 p=554532 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 18:27:10,465 p=554532 u=enzo n=ansible | fatal: [192.168.0.122]: FAILED! => {"changed": true, "cmd": ["ls", "-la", "['/home/enzo']"], "delta": "0:00:00.003417", "end": "2021-02-23 18:27:10.384718", "msg": "non-zero return code", "rc": 2, "start": "2021-02-23 18:27:10.381301", "stderr": "ls: cannot access '['\\''/home/enzo'\\'']': No such file or directory", "stderr_lines": ["ls: cannot access '['\\''/home/enzo'\\'']': No such file or directory"], "stdout": "", "stdout_lines": []}
+2021-02-23 18:27:10,470 p=554532 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 18:27:10,471 p=554532 u=enzo n=ansible | 192.168.0.122              : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-02-23 18:28:55,075 p=556212 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 18:28:55,075 p=556212 u=enzo n=ansible | 192.168.0.122 | CHANGED | rc=0 >>
+total 68
+drwxr-xr-x 1 enzo users  636 fev 23 18:28 .
+drwxr-xr-x 1 root root     8 fev 14 10:32 ..
+drwx------ 1 enzo users    6 fev 14 15:38 .ansible
+-rw------- 1 enzo users  208 fev 15 14:10 .bash_history
+-rw-r--r-- 1 enzo users 1177 fev 14 10:32 .bashrc
+drwxr-xr-x 1 enzo users    0 fev 14 10:32 bin
+drwx------ 1 enzo users  258 fev 14 11:00 .cache
+drwx------ 1 enzo users  256 fev 14 11:12 .config
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Desktop
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Documents
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Downloads
+-rw-r--r-- 1 enzo users 1637 fev 14 10:32 .emacs
+-rw------- 1 enzo users   16 fev 14 10:53 .esd_auth
+drwxr-xr-x 1 enzo users    0 fev 14 10:32 .fonts
+drwx------ 1 enzo users   44 fev 14 10:55 .gnupg
+-rw-r--r-- 1 enzo users   73 fev 14 10:32 .i18n
+-rw------- 1 enzo users 3024 fev 23 18:27 .ICEauthority
+-rw-r--r-- 1 enzo users  861 fev 14 10:32 .inputrc
+drwx------ 1 enzo users   10 fev 14 10:53 .local
+drwx------ 1 enzo users   72 fev 14 11:00 .mozilla
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Music
+-rw-r--r-- 1 enzo users 6043 fev 14 10:32 .muttrc
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Pictures
+-rw-r--r-- 1 enzo users 1028 fev 14 10:32 .profile
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Public
+-rw------- 1 enzo users    7 fev 14 12:05 .python_history
+drwx------ 1 enzo users   22 fev 14 11:22 .ssh
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Templates
+-rw-r--r-- 1 enzo users  311 fev 14 10:32 .urlview
+-rw-r----- 1 enzo users    5 fev 23 18:27 .vboxclient-clipboard.pid
+-rw-r----- 1 enzo users    5 fev 23 18:27 .vboxclient-draganddrop.pid
+-rw-r----- 1 enzo users    5 fev 23 18:27 .vboxclient-seamless.pid
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Videos
+-rw-r--r-- 1 enzo users 1951 fev 14 10:32 .xim.template
+-rwxr-xr-x 1 enzo users 1112 fev 14 10:32 .xinitrc.template
+
+2021-02-23 18:35:44,802 p=562462 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 18:35:44,802 p=562462 u=enzo n=ansible | 192.168.0.122 | CHANGED | rc=0 >>
+total 68
+drwxr-xr-x 1 enzo users  636 fev 23 18:28 .
+drwxr-xr-x 1 root root     8 fev 14 10:32 ..
+drwx------ 1 enzo users    6 fev 14 15:38 .ansible
+-rw------- 1 enzo users  208 fev 15 14:10 .bash_history
+-rw-r--r-- 1 enzo users 1177 fev 14 10:32 .bashrc
+drwxr-xr-x 1 enzo users    0 fev 14 10:32 bin
+drwx------ 1 enzo users  258 fev 14 11:00 .cache
+drwx------ 1 enzo users  256 fev 14 11:12 .config
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Desktop
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Documents
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Downloads
+-rw-r--r-- 1 enzo users 1637 fev 14 10:32 .emacs
+-rw------- 1 enzo users   16 fev 14 10:53 .esd_auth
+drwxr-xr-x 1 enzo users    0 fev 14 10:32 .fonts
+drwx------ 1 enzo users   44 fev 14 10:55 .gnupg
+-rw-r--r-- 1 enzo users   73 fev 14 10:32 .i18n
+-rw------- 1 enzo users 3024 fev 23 18:27 .ICEauthority
+-rw-r--r-- 1 enzo users  861 fev 14 10:32 .inputrc
+drwx------ 1 enzo users   10 fev 14 10:53 .local
+drwx------ 1 enzo users   72 fev 14 11:00 .mozilla
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Music
+-rw-r--r-- 1 enzo users 6043 fev 14 10:32 .muttrc
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Pictures
+-rw-r--r-- 1 enzo users 1028 fev 14 10:32 .profile
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Public
+-rw------- 1 enzo users    7 fev 14 12:05 .python_history
+drwx------ 1 enzo users   22 fev 14 11:22 .ssh
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Templates
+-rw-r--r-- 1 enzo users  311 fev 14 10:32 .urlview
+-rw-r----- 1 enzo users    5 fev 23 18:27 .vboxclient-clipboard.pid
+-rw-r----- 1 enzo users    5 fev 23 18:27 .vboxclient-draganddrop.pid
+-rw-r----- 1 enzo users    5 fev 23 18:27 .vboxclient-seamless.pid
+drwxr-xr-x 1 enzo users    0 fev 14 10:53 Videos
+-rw-r--r-- 1 enzo users 1951 fev 14 10:32 .xim.template
+-rwxr-xr-x 1 enzo users 1112 fev 14 10:32 .xinitrc.template
+
+2021-02-23 18:35:54,807 p=562717 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  found unacceptable key (unhashable type: 'AnsibleMapping')
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 7, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  with_folders:
+    - {{folders_list}}
+       ^ here
+We could be wrong, but this one looks like it might be an issue with
+missing quotes. Always quote template expression brackets when they
+start a value. For instance:
+
+    with_items:
+      - {{ foo }}
+
+Should be written as:
+
+    with_items:
+      - "{{ foo }}"
+
+2021-02-23 18:36:52,975 p=563506 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 18:36:53,002 p=563506 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 18:36:54,527 p=563506 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 18:36:54,527 p=563506 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 18:36:54,540 p=563506 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 18:36:55,215 p=563506 u=enzo n=ansible | changed: [192.168.0.122] => (item=/home/enzo)
+2021-02-23 18:36:55,227 p=563506 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 18:36:55,227 p=563506 u=enzo n=ansible | 192.168.0.122              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-02-23 18:37:23,472 p=564196 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 18:37:23,482 p=564196 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 18:37:24,902 p=564196 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 18:37:24,903 p=564196 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 18:37:24,917 p=564196 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 18:37:25,662 p=564196 u=enzo n=ansible | changed: [192.168.0.122] => (item=/home/enzo)
+2021-02-23 18:37:26,203 p=564196 u=enzo n=ansible | changed: [192.168.0.122] => (item=/etc)
+2021-02-23 18:37:27,119 p=564196 u=enzo n=ansible | changed: [192.168.0.122] => (item=/usr/bin)
+2021-02-23 18:37:27,135 p=564196 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 18:37:27,135 p=564196 u=enzo n=ansible | 192.168.0.122              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-02-23 18:40:43,468 p=567080 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 18:40:43,478 p=567080 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 18:40:44,894 p=567080 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 18:40:44,894 p=567080 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 18:40:44,908 p=567080 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 18:40:45,648 p=567080 u=enzo n=ansible | changed: [192.168.0.122] => (item=/home/enzo)
+2021-02-23 18:40:46,162 p=567080 u=enzo n=ansible | changed: [192.168.0.122] => (item=/etc)
+2021-02-23 18:40:46,711 p=567080 u=enzo n=ansible | changed: [192.168.0.122] => (item=/usr/bin)
+2021-02-23 18:40:46,730 p=567080 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 18:40:46,730 p=567080 u=enzo n=ansible | 192.168.0.122              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-02-23 18:42:16,195 p=568525 u=enzo n=ansible | ERROR! couldn't resolve module/action 'community.general.zypper'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# Atualizacao dos pacotes do sustema operacional yast
+- name: update all suse packages
+  ^ here
+
+2021-02-23 18:43:43,137 p=569805 u=enzo n=ansible | ERROR! couldn't resolve module/action 'community.general.zypper'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 10, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# Atualizacao dos pacotes do sustema operacional yast
+- name: update all suse packages
+  ^ here
+
+2021-02-23 18:44:40,510 p=570714 u=enzo n=ansible | ERROR! couldn't resolve module/action 'community.general.zypper'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 10, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# Atualizacao dos pacotes do sustema operacional yast
+- name: update all suse packages
+  ^ here
+
+2021-02-23 18:45:24,690 p=571327 u=enzo n=ansible | ERROR! couldn't resolve module/action 'community.general.zypper'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 10, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+# Atualizacao dos pacotes do sustema operacional yast
+- name: update all suse packages
+  ^ here
+
+2021-02-23 18:46:26,928 p=572440 u=enzo n=ansible | ERROR! couldn't resolve module/action 'community.general.zypper'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: update all suse packages
+  ^ here
+
+2021-02-23 18:48:20,952 p=573823 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 18:48:20,962 p=573823 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 18:48:22,338 p=573823 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 18:48:22,338 p=573823 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 18:48:22,352 p=573823 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 18:48:23,050 p=573823 u=enzo n=ansible | changed: [192.168.0.122] => (item=/home/enzo)
+2021-02-23 18:48:24,562 p=573823 u=enzo n=ansible | changed: [192.168.0.122] => (item=/etc)
+2021-02-23 18:48:25,112 p=573823 u=enzo n=ansible | changed: [192.168.0.122] => (item=/usr/bin)
+2021-02-23 18:48:25,134 p=573823 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 18:48:25,134 p=573823 u=enzo n=ansible | 192.168.0.122              : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-02-23 18:48:46,508 p=574469 u=enzo n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  but found another document
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+---
+^ here
+
+2021-02-23 18:49:39,781 p=575319 u=enzo n=ansible | ERROR! couldn't resolve module/action 'community.general.zypper'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 9, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Update all packages
+  ^ here
+
+2021-02-23 18:50:04,622 p=575659 u=enzo n=ansible | ERROR! couldn't resolve module/action 'community.general.zypper'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 7, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Update all packages
+  ^ here
+
+2021-02-23 18:54:24,706 p=579611 u=enzo n=ansible | ERROR! couldn't resolve module/action 'zypper'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 7, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: update de todos os pacotes
+  ^ here
+
+2021-02-23 19:08:52,862 p=592171 u=enzo n=ansible | ERROR! couldn't resolve module/action 'zypper'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 3, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: update de todos os pacotes
+  ^ here
+
+2021-02-23 19:09:21,455 p=592607 u=enzo n=ansible | ERROR! couldn't resolve module/action 'community.general.zypper'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 4, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Update all packages
+  ^ here
+
+2021-02-23 19:09:53,770 p=593146 u=enzo n=ansible | ERROR! couldn't resolve module/action 'community.general.zypper'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/data/ansible_playground/etc/ansible/roles/common/tasks/main.yml': line 4, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: dar um ls em um diretorio qualquer
+  ^ here
+
+2021-02-23 19:49:44,963 p=627659 u=enzo n=ansible | Starting galaxy collection install process
+2021-02-23 19:49:44,964 p=627659 u=enzo n=ansible | Process install dependency map
+2021-02-23 19:49:44,964 p=627659 u=enzo n=ansible | |
+2021-02-23 19:49:45,065 p=627659 u=enzo n=ansible | ERROR! Invalid collection name 'community.general.', name must be in the format <namespace>.<collection>. 
+Please make sure namespace and collection name contains characters from [a-zA-Z0-9_] only.
+2021-02-23 19:49:47,799 p=627671 u=enzo n=ansible | Starting galaxy collection install process
+2021-02-23 19:49:47,799 p=627671 u=enzo n=ansible | Process install dependency map
+2021-02-23 19:49:47,800 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:47,900 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:48,001 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:48,101 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:48,202 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:48,302 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:48,403 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:48,503 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:48,605 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:48,705 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:48,806 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:48,906 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:49,007 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:49,107 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:49,208 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:49,308 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:49,409 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:49,509 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:49,609 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:49,710 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:49,810 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:49,911 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:50,011 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:50,111 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:50,212 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:50,312 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:50,413 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:50,513 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:50,613 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:50,714 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:50,814 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:50,915 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:51,015 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:51,115 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:51,216 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:51,316 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:51,417 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:51,517 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:51,617 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:51,718 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:51,818 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:51,919 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:52,019 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:52,120 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:52,220 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:52,321 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:52,421 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:52,522 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:52,622 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:52,722 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:52,823 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:52,923 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:53,024 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:53,124 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:53,225 p=627671 u=enzo n=ansible | Starting collection install process
+2021-02-23 19:49:53,226 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:53,326 p=627671 u=enzo n=ansible | Installing 'community.general:2.1.1' to '/home/enzo/.ansible/collections/ansible_collections/community/general'
+2021-02-23 19:49:53,326 p=627671 u=enzo n=ansible | Downloading https://galaxy.ansible.com/download/community-general-2.1.1.tar.gz to /home/enzo/.ansible/tmp/ansible-local-627671jx3eshhx/tmpe8l2ienz
+2021-02-23 19:49:53,327 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:53,427 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:53,527 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:53,628 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:53,728 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:53,829 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:53,929 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:54,029 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:54,130 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:54,230 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:54,331 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:54,431 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:54,532 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:54,632 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:54,732 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:54,833 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:54,933 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:55,034 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:55,134 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:55,235 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:55,335 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:55,436 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:55,536 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:55,636 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:55,737 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:55,837 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:55,937 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:56,038 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:56,138 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:56,239 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:56,339 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:56,442 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:56,542 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:56,642 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:56,743 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:56,843 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:56,944 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:57,044 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:57,144 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:57,245 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:57,345 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:57,450 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:57,550 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:57,651 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:57,751 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:57,853 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:57,953 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:58,057 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:58,158 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:58,258 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:58,359 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:58,459 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:58,559 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:58,663 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:58,766 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:58,868 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:58,969 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:59,070 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:59,170 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:59,271 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:59,372 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:59,472 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:59,573 p=627671 u=enzo n=ansible | \
+2021-02-23 19:49:59,673 p=627671 u=enzo n=ansible | |
+2021-02-23 19:49:59,773 p=627671 u=enzo n=ansible | /
+2021-02-23 19:49:59,874 p=627671 u=enzo n=ansible | -
+2021-02-23 19:49:59,974 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:00,075 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:00,177 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:00,278 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:00,378 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:00,478 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:00,579 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:00,679 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:00,779 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:00,880 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:00,980 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:01,081 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:01,181 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:01,283 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:01,383 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:01,483 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:01,584 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:01,684 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:01,785 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:01,885 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:01,986 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:02,086 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:02,188 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:02,289 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:02,389 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:02,490 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:02,590 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:02,691 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:02,791 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:02,891 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:02,992 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:03,092 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:03,196 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:03,300 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:03,400 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:03,501 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:03,601 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:03,701 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:03,802 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:03,904 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:04,005 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:04,105 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:04,206 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:04,306 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:04,409 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:04,510 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:04,610 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:04,711 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:04,811 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:04,912 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:05,012 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:05,112 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:05,213 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:05,313 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:05,414 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:05,514 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:05,615 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:05,715 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:05,819 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:05,919 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:06,020 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:06,120 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:06,221 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:06,321 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:06,422 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:06,522 p=627671 u=enzo n=ansible | |
+2021-02-23 19:50:06,623 p=627671 u=enzo n=ansible | /
+2021-02-23 19:50:06,723 p=627671 u=enzo n=ansible | -
+2021-02-23 19:50:06,824 p=627671 u=enzo n=ansible | \
+2021-02-23 19:50:06,925 p=627671 u=enzo n=ansible | community.general (2.1.1) was installed successfully
+2021-02-23 19:50:40,022 p=628471 u=enzo n=ansible |  [ERROR]: User interrupted execution
+
+2021-02-23 19:51:28,644 p=629052 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 19:51:28,655 p=629052 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 19:51:30,132 p=629052 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 19:51:30,133 p=629052 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 19:51:30,148 p=629052 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 19:51:30,820 p=629052 u=enzo n=ansible | changed: [192.168.0.122] => (item=/home/enzo)
+2021-02-23 19:51:32,314 p=629052 u=enzo n=ansible | changed: [192.168.0.122] => (item=/etc)
+2021-02-23 19:51:32,861 p=629052 u=enzo n=ansible | changed: [192.168.0.122] => (item=/usr/bin)
+2021-02-23 19:51:32,871 p=629052 u=enzo n=ansible | TASK [common : fazer os updates do suse] *****************************************************************************************************
+2021-02-23 19:51:33,566 p=629052 u=enzo n=ansible | fatal: [192.168.0.122]: FAILED! => {"changed": false, "module_stderr": "Shared connection to 192.168.0.122 closed.\r\n", "module_stdout": "\r\nTraceback (most recent call last):\r\n  File \"/home/enzo/.ansible/tmp/ansible-tmp-1614120692.9508207-629302-238934195658106/AnsiballZ_zypper.py\", line 102, in <module>\r\n    _ansiballz_main()\r\n  File \"/home/enzo/.ansible/tmp/ansible-tmp-1614120692.9508207-629302-238934195658106/AnsiballZ_zypper.py\", line 94, in _ansiballz_main\r\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\r\n  File \"/home/enzo/.ansible/tmp/ansible-tmp-1614120692.9508207-629302-238934195658106/AnsiballZ_zypper.py\", line 40, in invoke_module\r\n    runpy.run_module(mod_name='ansible_collections.community.general.plugins.modules.zypper', init_globals=None, run_name='__main__', alter_sys=True)\r\n  File \"/usr/lib64/python2.7/runpy.py\", line 188, in run_module\r\n    fname, loader, pkg_name)\r\n  File \"/usr/lib64/python2.7/runpy.py\", line 82, in _run_module_code\r\n    mod_name, mod_fname, mod_loader, pkg_name)\r\n  File \"/usr/lib64/python2.7/runpy.py\", line 72, in _run_code\r\n    exec code in run_globals\r\n  File \"/tmp/ansible_community.general.zypper_payload_5wuDHn/ansible_community.general.zypper_payload.zip/ansible_collections/community/general/plugins/modules/zypper.py\", line 216, in <module>\r\nImportError: No module named xml\r\n", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2021-02-23 19:51:33,577 p=629052 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 19:51:33,578 p=629052 u=enzo n=ansible | 192.168.0.122              : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-02-23 19:53:02,000 p=630484 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 19:53:02,011 p=630484 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 19:53:04,405 p=630484 u=enzo n=ansible | [WARNING]: Platform linux on host 192.168.0.122 is using the discovered Python interpreter at /usr/bin/python, but future installation of
+another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2021-02-23 19:53:04,405 p=630484 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 19:53:04,421 p=630484 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 19:53:05,064 p=630484 u=enzo n=ansible | changed: [192.168.0.122] => (item=/home/enzo)
+2021-02-23 19:53:05,569 p=630484 u=enzo n=ansible | changed: [192.168.0.122] => (item=/etc)
+2021-02-23 19:53:06,097 p=630484 u=enzo n=ansible | changed: [192.168.0.122] => (item=/usr/bin)
+2021-02-23 19:53:06,109 p=630484 u=enzo n=ansible | TASK [common : fazer os updates do suse] *****************************************************************************************************
+2021-02-23 19:53:06,762 p=630484 u=enzo n=ansible | fatal: [192.168.0.122]: FAILED! => {"changed": false, "module_stderr": "Shared connection to 192.168.0.122 closed.\r\n", "module_stdout": "\r\nTraceback (most recent call last):\r\n  File \"/home/enzo/.ansible/tmp/ansible-tmp-1614120786.1871974-630793-191539282573659/AnsiballZ_zypper.py\", line 102, in <module>\r\n    _ansiballz_main()\r\n  File \"/home/enzo/.ansible/tmp/ansible-tmp-1614120786.1871974-630793-191539282573659/AnsiballZ_zypper.py\", line 94, in _ansiballz_main\r\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\r\n  File \"/home/enzo/.ansible/tmp/ansible-tmp-1614120786.1871974-630793-191539282573659/AnsiballZ_zypper.py\", line 40, in invoke_module\r\n    runpy.run_module(mod_name='ansible_collections.community.general.plugins.modules.zypper', init_globals=None, run_name='__main__', alter_sys=True)\r\n  File \"/usr/lib64/python2.7/runpy.py\", line 188, in run_module\r\n    fname, loader, pkg_name)\r\n  File \"/usr/lib64/python2.7/runpy.py\", line 82, in _run_module_code\r\n    mod_name, mod_fname, mod_loader, pkg_name)\r\n  File \"/usr/lib64/python2.7/runpy.py\", line 72, in _run_code\r\n    exec code in run_globals\r\n  File \"/tmp/ansible_community.general.zypper_payload_bNg5kY/ansible_community.general.zypper_payload.zip/ansible_collections/community/general/plugins/modules/zypper.py\", line 216, in <module>\r\nImportError: No module named xml\r\n", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2021-02-23 19:53:06,764 p=630484 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 19:53:06,764 p=630484 u=enzo n=ansible | 192.168.0.122              : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-02-23 19:55:44,712 p=633150 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 19:55:44,722 p=633150 u=enzo n=ansible | ERROR! failed to combine variables, expected dicts but got a 'dict' and a 'AnsibleUnicode': 
+{}
+"ansible_python_interpreter=/usr/bin/python3"
+2021-02-23 19:56:08,173 p=633478 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 19:56:08,184 p=633478 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 19:56:14,638 p=633478 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 19:56:14,652 p=633478 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 19:56:15,390 p=633478 u=enzo n=ansible | changed: [192.168.0.122] => (item=/home/enzo)
+2021-02-23 19:56:15,985 p=633478 u=enzo n=ansible | changed: [192.168.0.122] => (item=/etc)
+2021-02-23 19:56:16,594 p=633478 u=enzo n=ansible | changed: [192.168.0.122] => (item=/usr/bin)
+2021-02-23 19:56:16,604 p=633478 u=enzo n=ansible | TASK [common : fazer os updates do suse] *****************************************************************************************************
+2021-02-23 19:57:16,217 p=633478 u=enzo n=ansible | changed: [192.168.0.122]
+2021-02-23 19:57:16,232 p=633478 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 19:57:16,232 p=633478 u=enzo n=ansible | 192.168.0.122              : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-02-23 19:59:08,435 p=636045 u=enzo n=ansible | PLAY [update opensuse] ***********************************************************************************************************************
+2021-02-23 19:59:08,445 p=636045 u=enzo n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************
+2021-02-23 19:59:09,895 p=636045 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 19:59:09,910 p=636045 u=enzo n=ansible | TASK [common : dar um ls em um diretorio qualquer] *******************************************************************************************
+2021-02-23 19:59:10,636 p=636045 u=enzo n=ansible | changed: [192.168.0.122] => (item=/home/enzo)
+2021-02-23 19:59:11,253 p=636045 u=enzo n=ansible | changed: [192.168.0.122] => (item=/etc)
+2021-02-23 19:59:11,897 p=636045 u=enzo n=ansible | changed: [192.168.0.122] => (item=/usr/bin)
+2021-02-23 19:59:11,909 p=636045 u=enzo n=ansible | TASK [common : fazer os updates do suse] *****************************************************************************************************
+2021-02-23 19:59:20,604 p=636045 u=enzo n=ansible | ok: [192.168.0.122]
+2021-02-23 19:59:20,619 p=636045 u=enzo n=ansible | PLAY RECAP ***********************************************************************************************************************************
+2021-02-23 19:59:20,619 p=636045 u=enzo n=ansible | 192.168.0.122              : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

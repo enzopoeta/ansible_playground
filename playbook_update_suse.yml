@@ -1,0 +1,5 @@
+-  name:  update opensuse
+   hosts: 192.168.0.122
+   roles: 
+     - common
+     

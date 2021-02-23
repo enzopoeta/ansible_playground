@@ -1,7 +1,28 @@
+---
+
 # exemplo de uso de variaveis ( ver defaults/main.yml)
----
-name:  dar um ls em um diretorio qualquer
-command:  ls -la {{folder}}
-with_folders:
-  -  {{folders_list}}
----
+- name: dar um ls em um diretorio qualquer
+  command: ls -la {{item}}
+  with_items:
+    - "{{ folders_list }}"
+
+- name: fazer os updates do suse
+  community.general.zypper:
+    name: '*'
+    state: latest
+    update_cache: yes
+
+
+# atualizacao dos repositoriso apt
+#-  name:  update apt repos
+#   apt:  update_cache=yes force_apt_get=yes cache_valid_time=3600
+
+# atualizacao dos pacotes apt
+#-  name:  update apt packages
+#   apt:  upgrade=dist force_apt_get=yes
+
+# exemplo de uso de variaveis ( ver defaults/main.yml)
+#- name: dar um ls em um diretorio qualquer
+#  command: ls -la {{item}}
+#  with_items:
+#    - "{{ folders_list }}"

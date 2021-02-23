@@ -1,2 +1,3 @@
 # o host_vars e o group vars servem para personalizar variaveis para hosts e grupos e tem precedencia ao inventory
 #ansible_ssh_user:   joao
+ansible_python_interpreter: /usr/bin/python3
