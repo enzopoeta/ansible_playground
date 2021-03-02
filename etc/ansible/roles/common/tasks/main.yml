@@ -13,6 +13,20 @@
     update_cache: yes
 
 
+
+# quando voce tem arquivos em files no seu role pode usar copy conforme o exemplo abaixo para copia-los para a maquina de destino de
+
+#- name: copia de arquivos
+#  copy:  src=arquivo.txt dest=/tmp/arquivo.txt
+
+
+# quando voce tem arquivos em templates no seu role pode usar template conforme o exemplo abaixo para copia-los para o destino com a interpolacao de variaveis
+# dica : para consultar variaveis ansible eh possivel utilizar o modulo setup lembrando o formato de variaveis "{{ variavel }}"
+
+#- name: copia template
+#  template:  src=arquivo.txt dest=/tmp/arquivo.txt force=yes owner=root group=root
+
+
 # atualizacao dos repositoriso apt
 #-  name:  update apt repos
 #   apt:  update_cache=yes force_apt_get=yes cache_valid_time=3600

@@ -1,0 +1,3 @@
+# o arquivo de handlers se comporta da mesma forma basicamente da mesma forma que o arquivo de tasks e cada handler pode ser invocada
+# separadamente assim que uma task for executada com o parametro notify:  taskname em uma determinada task do arquivo de tasks
+
