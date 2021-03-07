@@ -11,8 +11,13 @@
     name: '*'
     state: latest
     update_cache: yes
+  when: ansible_distribution == 'openSUSE Leap' #poderia ter um or ou o que seja na condicao #lembrando que as variaveis podem ser obtidas via modulo setup
 
-
+- name: fazer os updates do ubuntu
+  apt:
+    upgrade: "yes"
+    update_cache: yes
+  when: ansible_distribution == 'Ubuntu' #poderia ter um or ou o que seja na condicao
 
 # quando voce tem arquivos em files no seu role pode usar copy conforme o exemplo abaixo para copia-los para a maquina de destino de
 

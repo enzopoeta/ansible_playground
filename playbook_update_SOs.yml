@@ -1,0 +1,5 @@
+-  name:  update SOs
+   hosts: sample_servers
+   roles: 
+     - common
+     

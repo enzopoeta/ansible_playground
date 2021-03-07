@@ -1,0 +1,5 @@
+#no arquivo meta sao definidas dependencias para a execucao da role em questao
+# um tipo de depencencia pode ser uma outra role e a sintaxe segue abaixo :
+
+# dependencies:
+#   - {role : rolename}
